@@ -1,0 +1,14 @@
+{
+  "name": "node-lab-duuong-leo",
+  "version": "1.0.0",
+  "description": "Node.js lab of Dương Leo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "Dương Leo",
+  "license": "MIT"
+}
