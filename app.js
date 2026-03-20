@@ -46,3 +46,6 @@ setTimeout(function(){
 		webAppReady();
 	}
 },1000)
+
+const errorHandler = require('./middleware/errorHandler');
+app.use(errorHandler);
