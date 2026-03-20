@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"  # thư mục gốc repo
+    schedule:
+      interval: "daily"  # mỗi ngày kiểm tra
+    open-pull-requests-limit: 10  # tối đa 10 PR mở
+    target-branch: "main"  # push lên main
+    labels: # label tự động
+    commit-message:
+      prefix: "chore(deps):"
+      include: "scope"
+    versioning-strategy: "increase"  # tăng version dần
+    rebase-strategy: "auto"  # tự rebase nếu conflict
+    ignore:
+      - dependency-name: "*"  # nếu muốn ignore gì thì thêm ở đây
+        update-types: # ví dụ ignore patch nhỏ
