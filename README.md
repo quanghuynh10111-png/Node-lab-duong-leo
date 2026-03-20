@@ -1,12 +1,12 @@
-# Node-lab-duong-leo(node.js lab)🌳🌿🌲
-mua trên appstore và đã test xong 
-chạy srever localhost3000
+# Node-lab-duong-leo(node.js lab)✨🌳🌿🌲✨
+mua trên appstore và đã test xong 🌏✨🌏
+chạy srever localhost3000✨🌏✨
 
 
 Repo này là nơi thử nghiệm các project Node.js, học backend, build API, xử lý database🦚🌳
 ## Mục đích
 - Học và thực hành Node.js (Express, MongoDB, Socket.io, v.v.)
-- Lưu code demo, bài tập, project nhỏ
+- Lưu code demo, bài tập, project nhỏ✨
 
 - ## Cài đặt
 ```bash
